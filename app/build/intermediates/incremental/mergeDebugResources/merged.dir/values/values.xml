@@ -834,6 +834,7 @@
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_add_alarm">AddAlarm</string>
+    <string name="title_activity_add_pump_house">AddPumpHouse</string>
     <string name="title_activity_cancel_alarm">CancelAlarm</string>
     <string name="title_activity_google_sheet">GoogleSheet</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

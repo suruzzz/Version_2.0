@@ -78,7 +78,7 @@ public class SMSListener extends BroadcastReceiver {
                                 @Override
                                 public void processFinish(Object output) {
 
-                                    if ( output == "Success") {
+                                    if ((String)output == "Success") {
                                         Toast.makeText(context, "Sheet Updated Successfully", Toast.LENGTH_SHORT).show();
                                     } else {
                                         Toast.makeText(context, "Error in Sheet Updation", Toast.LENGTH_SHORT).show();
