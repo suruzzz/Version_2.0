@@ -228,8 +228,11 @@ public class AddAlarm extends AppCompatActivity
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        System.gc();
-        System.exit(0);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
 
     }
 
@@ -251,7 +254,13 @@ public class AddAlarm extends AppCompatActivity
             Intent i2 = new Intent(AddAlarm.this, CancelAlarm.class);
             startActivity(i2);
 
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.nav_addHouse)
+        {
+            Intent i2 = new Intent(AddAlarm.this, AddPumpHouse.class);
+            startActivity(i2);
+        }
+        else if (id == R.id.nav_share) {
 
             try {
                 Intent i = new Intent(Intent.ACTION_SEND);

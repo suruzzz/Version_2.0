@@ -199,9 +199,13 @@ public class Home extends AppCompatActivity
     }
     @Override
     public void onBackPressed() {
-        System.gc();
-        System.exit(0);
-
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            //super.onBackPressed();
+            finish();
+        }
     }
 
 
@@ -221,7 +225,13 @@ public class Home extends AppCompatActivity
         } else if (id == R.id.nav_Cancel) {
             Intent i1 = new Intent(Home.this,CancelAlarm.class);
             startActivity(i1);
-        } else if (id == R.id.nav_share) {
+        }
+        else if (id == R.id.nav_addHouse)
+        {
+            Intent i2 = new Intent(Home.this, AddPumpHouse.class);
+            startActivity(i2);
+        }
+        else if (id == R.id.nav_share) {
             try {
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("text/plain");

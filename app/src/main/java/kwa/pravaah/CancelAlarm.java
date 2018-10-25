@@ -95,7 +95,7 @@ public class CancelAlarm extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            finish();//super.onBackPressed();
         }
     }
 
@@ -130,12 +130,18 @@ public class CancelAlarm extends AppCompatActivity
             }
 
         } else if (id == R.id.nav_gsheet) {
-            String url ="https://docs.google.com/spreadsheets/d/1IcsEfodyeh7z6l_I15fI2LqKCe3YOrJnPnEQlChDwNo/edit#gid=0";
+            String url = "https://docs.google.com/spreadsheets/d/1IcsEfodyeh7z6l_I15fI2LqKCe3YOrJnPnEQlChDwNo/edit#gid=0";
 
             Uri uriUrl = Uri.parse(url);
             Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
             startActivity(launchBrowser);
         }
+ else if (id == R.id.nav_addHouse)
+            {
+                Intent i2 = new Intent(CancelAlarm.this, AddPumpHouse.class);
+                startActivity(i2);
+            }
+
 
           DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
