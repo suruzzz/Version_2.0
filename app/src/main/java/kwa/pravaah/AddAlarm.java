@@ -231,7 +231,8 @@ public class AddAlarm extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+           // super.onBackPressed();
+            finish();
         }
 
     }
@@ -255,11 +256,7 @@ public class AddAlarm extends AppCompatActivity
             startActivity(i2);
 
         }
-        else if (id == R.id.nav_addHouse)
-        {
-            Intent i2 = new Intent(AddAlarm.this, AddPumpHouse.class);
-            startActivity(i2);
-        }
+
         else if (id == R.id.nav_share) {
 
             try {
@@ -280,6 +277,12 @@ public class AddAlarm extends AppCompatActivity
             Uri uriUrl = Uri.parse(url);
             Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
             startActivity(launchBrowser);
+        }
+        else if (id == R.id.nav_EXIT)
+        {
+
+            finish();
+            System.exit(0);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

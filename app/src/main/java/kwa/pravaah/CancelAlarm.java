@@ -136,11 +136,12 @@ public class CancelAlarm extends AppCompatActivity
             Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
             startActivity(launchBrowser);
         }
- else if (id == R.id.nav_addHouse)
-            {
-                Intent i2 = new Intent(CancelAlarm.this, AddPumpHouse.class);
-                startActivity(i2);
-            }
+        else if (id == R.id.nav_EXIT)
+        {
+
+            finish();
+            System.exit(0);
+        }
 
 
           DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

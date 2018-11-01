@@ -344,10 +344,6 @@
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0f22267af86001e2abd1e9e1f25cc714\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_add_pump_house.xml.flat",
-        "source": "G:\\Latest-master\\app\\src\\main\\res\\layout\\app_bar_add_pump_house.xml"
-    },
-    {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0f22267af86001e2abd1e9e1f25cc714\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
@@ -378,10 +374,6 @@
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0f22267af86001e2abd1e9e1f25cc714\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_add_pump_house.xml.flat",
-        "source": "G:\\Latest-master\\app\\src\\main\\res\\layout\\content_add_pump_house.xml"
     },
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -430,10 +422,6 @@
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0f22267af86001e2abd1e9e1f25cc714\\res\\drawable-v21\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_add_pump_house_drawer.xml.flat",
-        "source": "G:\\Latest-master\\app\\src\\main\\res\\menu\\activity_add_pump_house_drawer.xml"
     },
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_delete.png.flat",
@@ -692,6 +680,10 @@
         "source": "G:\\Latest-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\alarm_off.png"
     },
     {
+        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sasi.jpg.flat",
+        "source": "G:\\Latest-master\\app\\src\\main\\res\\drawable-v24\\sasi.jpg"
+    },
+    {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_contacts.png.flat",
         "source": "G:\\Latest-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\contacts.png"
     },
@@ -936,10 +928,6 @@
         "source": "G:\\Latest-master\\app\\src\\main\\res\\mipmap-xhdpi\\pra.png"
     },
     {
-        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_add_pump_house.xml.flat",
-        "source": "G:\\Latest-master\\app\\src\\main\\res\\layout\\nav_header_add_pump_house.xml"
-    },
-    {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0f22267af86001e2abd1e9e1f25cc714\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -1038,6 +1026,10 @@
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\0f22267af86001e2abd1e9e1f25cc714\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sasi.jpg.flat",
+        "source": "G:\\Latest-master\\app\\src\\main\\res\\drawable\\sasi.jpg"
     },
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_contacts.png.flat",
@@ -2162,10 +2154,6 @@
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "G:\\Latest-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_pump_house.xml.flat",
-        "source": "G:\\Latest-master\\app\\src\\main\\res\\layout\\activity_add_pump_house.xml"
     },
     {
         "merged": "G:\\Latest-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility.png.flat",

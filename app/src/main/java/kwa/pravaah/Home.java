@@ -226,11 +226,7 @@ public class Home extends AppCompatActivity
             Intent i1 = new Intent(Home.this,CancelAlarm.class);
             startActivity(i1);
         }
-        else if (id == R.id.nav_addHouse)
-        {
-            Intent i2 = new Intent(Home.this, AddPumpHouse.class);
-            startActivity(i2);
-        }
+
         else if (id == R.id.nav_share) {
             try {
                 Intent i = new Intent(Intent.ACTION_SEND);
@@ -244,12 +240,19 @@ public class Home extends AppCompatActivity
                 //e.toString();
             }
 
+
         } else if (id == R.id.nav_gsheet) {
              String url ="https://docs.google.com/spreadsheets/d/1IcsEfodyeh7z6l_I15fI2LqKCe3YOrJnPnEQlChDwNo/edit#gid=0";
 
             Uri uriUrl = Uri.parse(url);
             Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
             startActivity(launchBrowser);
+        }
+        else if (id == R.id.nav_EXIT)
+        {
+
+            finish();
+            System.exit(0);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
